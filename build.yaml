@@ -30,5 +30,5 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: nice_nano_v2_sofle_right_studio
   - board: nice_nano_v2
-    shield: setting_reset
+    shield: settings_reset
     artifact-name: settings_reset_file
