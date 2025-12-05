@@ -56,7 +56,7 @@
             quick-tap-ms = <150>;
             flavor = "hold-preferred";
             hold-while-undecided;
-            require-prior-idle-ms = <135>;
+            require-prior-idle-ms = <90>;
         };
     };
 
