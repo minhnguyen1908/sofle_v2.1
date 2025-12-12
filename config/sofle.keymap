@@ -52,7 +52,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <156>;
             quick-tap-ms = <150>;
             flavor = "balanced";
             hold-while-undecided;
