@@ -21,12 +21,12 @@
 include:
   - board: nice_nano
     shield: sofle_left
-    snippet: studio-rpc-usb-uart zmk-usb-logging
+    snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: nice_nano_v2_sofle_left_studio
   - board: nice_nano
     shield: sofle_right
-    snippet: studio-rpc-usb-uart zmk-usb-logging
+    snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: nice_nano_v2_sofle_right_studio
   - board: nice_nano
