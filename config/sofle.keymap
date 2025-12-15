@@ -16,7 +16,6 @@
 &mt {
     flavor = "balanced";
     quick-tap-ms = <150>;
-    require-prior-idle-ms = <135>;
 };
 
 / {
@@ -87,11 +86,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&none         &none                        &none        &none           &none         &none                               &none      &none          &none            &none                &none                            &none
-&TD_ESC_CAPS  &kp Q                        &kp W        &kp E           &kp R         &kp T                               &kp Y      &kp U          &kp I            &kp O                &kp P                            &kp BACKSLASH
-&kp TAB       &MT_SHIFT_KEYS LEFT_SHIFT A  &mt LCTRL S  &mt LEFT_ALT D  &kp F         &kp G                               &kp H      &kp J          &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &MT_SHIFT_KEYS RIGHT_SHIFT SEMI  &kp SINGLE_QUOTE
-&mo 3         &kp Z                        &kp X        &kp C           &kp V         &kp B      &kp C_MUTE    &none      &kp N      &kp M          &kp COMMA        &kp DOT              &kp FSLH                         &kp GRAVE
-                                           &none        &none           &kp LEFT_GUI  &mo LOWER  &kp RET       &kp SPACE  &mo RAISE  &kp RIGHT_GUI  &none            &none
+&none         &none  &none        &none           &none                        &none                               &none      &none                         &none            &none                &none     &none
+&TD_ESC_CAPS  &kp Q  &kp W        &kp E           &kp R                        &kp T                               &kp Y      &kp U                         &kp I            &kp O                &kp P     &kp BACKSLASH
+&kp TAB       &kp A  &mt LCTRL S  &mt LEFT_ALT D  &MT_SHIFT_KEYS LEFT_SHIFT F  &kp G                               &kp H      &MT_SHIFT_KEYS RIGHT_SHIFT J  &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &kp SEMI  &kp SINGLE_QUOTE
+&mo 3         &kp Z  &kp X        &kp C           &kp V                        &kp B      &kp C_MUTE    &none      &kp N      &kp M                         &kp COMMA        &kp DOT              &kp FSLH  &kp GRAVE
+                     &none        &none           &kp LEFT_GUI                 &mo LOWER  &kp RET       &kp SPACE  &mo RAISE  &kp RIGHT_GUI                 &none            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
