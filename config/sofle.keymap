@@ -18,7 +18,7 @@
     quick-tap-ms = <150>;
 };
 
-&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE MINUS>; };
+&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE MINUS NUMBER_1 NUMBER_2 NUMBER_3 NUMBER_4 NUMBER_5 NUMBER_6 NUMBER_7 NUMBER_8 NUMBER_9 NUMBER_0>; };
 
 / {
     // Activate ADJUST layer by pressing raise and lower
